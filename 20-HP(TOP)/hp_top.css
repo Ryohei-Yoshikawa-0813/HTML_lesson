@@ -1,0 +1,340 @@
+/* img全て */
+img {
+  width: 100%;
+}
+
+/* btn全て */
+
+
+/* header */
+.header_content01 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_content01_left {
+  width: 40%;
+  margin: auto 40px;
+}
+
+.header_content01_right {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_header {
+  width: 50%;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 10px;
+}
+
+.btn_header01 {
+  color: #ffffff;
+  background-color: #FF6699;
+}
+
+.btn_header02 {
+  color: #ffffff;
+  background-color: #009900;
+}
+
+.header_list {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+/* main */
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* sec_title */
+.sec_title {
+  margin-bottom: 40px;
+}
+
+.sec_title h1 {
+  font-size: 28px;
+}
+
+/* sec01 */
+.sec01 {
+  padding: 80px 0 0 0;
+}
+
+.sec01_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  /* sec02 */
+  .sec02 {
+    padding: 80px 0;
+  }
+  
+  .sec02_content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sec02_text {
+    margin-top: 10px;
+  }
+  
+  /* sec03 */
+  .sec03 {
+    background-color: #6d6d6d;
+  }
+
+  .sec03_main {
+    padding: 20px;
+  }
+  .sec03_content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sec03_content01 {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .sec03_content02 {
+    width: 70%;
+    margin: auto 0;
+  }
+
+  .sec03_title {
+    margin-bottom: 10px;
+  }
+
+  /* sec04 */
+  .sec04 {
+    padding: 80px 0;
+  }
+
+  .sec04_content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sec04_text h3 {
+    margin: 10px 0;
+  }
+
+  /* btn_band */
+  .btn_band {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #6d6d6d;
+    padding: 80px;
+  }
+
+  .btn_band01 {
+    width: 48%;
+    padding: 40px 0;
+    background-color: #ffffff;
+  }
+
+  .btn_band02 {
+    width: 48%;
+    padding: 40px 0;
+    background-color: #ffffff;
+  }
+
+  .btn_band button {
+    color: #ffffff;
+    padding: 10px 60px;
+  }
+  
+  .btn_band01 button {
+    background-color: #FF6699;
+  }
+
+  .btn_band02 button {
+    background-color: #009900;
+  }
+
+  .btn_band h3 {
+    padding-bottom: 10px;
+  }
+  
+  /* footer */
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* header */
+  .header_contents {
+    padding: 4% 0;
+  }
+
+  .header_content01 {
+    display: inline;
+  }
+
+  .header_content01_left {
+    width: 100%;
+    margin: auto;
+  }
+
+  .header_content01_right {
+    width: 100%;
+  }
+
+  .header_title {
+    font-size: 5vw;
+  }
+  
+  .header_list {
+    font-size: 3vw;
+    margin: 2% auto;
+  }
+
+  .header_list li {
+    margin: 1% 0;
+  }
+
+  /* btn */
+  .btn {
+    width: 50%;
+    font-size: 3vw;
+    padding: 2%;
+  }
+  
+  /* sec_title */
+  .sec_title {
+    margin-bottom: 2%;
+  }
+  
+  .sec_title h1 {
+    font-size: 5vw;
+    padding: 2%;
+    text-align: center;
+  }
+  
+  /* sec01 */
+  .sec01_main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sec01_content {
+    display: block;
+    padding-bottom: 4%;
+  }
+
+  .sec01_content02 {
+    padding-top: 4%;
+  }
+  
+  .sec01_img {
+    width: 100%;
+  }
+  
+  .sec01_text {
+    width: 100%;
+  }
+  
+  .sec01_text p {
+    font-size: 3vw;
+  }
+  
+  /* sec02 */
+  .sec02_content {
+    width: 100%;
+    display: inline;
+    margin-bottom: 4%;
+  }
+
+  .sec02_img {
+    width: 100%;
+  }
+  
+  .sec02_text {
+    width: 100%;
+    padding-bottom: 4%;
+  }
+  
+  /* sec03 */
+  .sec03_content {
+    display: inline;
+    width: 100%;
+    padding-bottom: 4%;
+  }
+
+  .sec03_content01 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .sec03_content02 {
+    width: 100%;
+  }
+
+  .sec03_text {
+    font-size: 3vw;
+  }
+
+  /* sec04 */
+  .sec04_content {
+    display: inline;
+  }
+
+  .sec04_text {
+    font-size: 3vw;
+    padding-bottom: 2%;
+  }
+  
+  .sec04_text h3 {
+    margin: 2% 0;
+  }
+
+  /* btn_band */
+  .btn_band {
+    display: block;
+    padding: 6%;
+  }
+
+  .btn_band01 {
+    width: 100%;
+    padding:2% 0;
+    margin-bottom: 2%;
+  }
+
+  .btn_band02 {
+    width: 100%;
+    padding: 2% 0;
+  }
+  
+  .btn_band h3 {
+    font-size: 4vw;
+    padding-bottom: 2%;
+  }
+
+  .btn_band button {
+    font-size: 3vw;
+    padding: 1% 10%;
+  }
+  
+  .wrapper {
+    padding: 0 2%;
+  }
+
+  /* footer */
+  footer {
+    font-size: 1.8vw;
+    padding: 4%;
+  }
+}
